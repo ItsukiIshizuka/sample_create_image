@@ -23,11 +23,10 @@ mount_uploader :name, ImagesUploader
 * 画像のアップロードテスト
 
 ## What
-* fields_forを用いた画像複数モデルへの登録
-* 画像のプレビュー表示
+* fields_forを用いた複数モデルの登録(ProductとImageテーブル)
 
 ## Why
-* 画像のプレビューを表示させた状態で、保存する。
+* メルカリ技術の細分化
 
 ## 参考記事
 * fields_forを用いた画像のアップロード https://qiita.com/kouuuki/items/5daf2b5f34273d8457f7
